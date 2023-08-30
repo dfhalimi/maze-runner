@@ -5,13 +5,13 @@ using SoundManagement;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] AudioClip coinPickupSound;
+    [SerializeField] private AudioClip _coinPickupSound;
 
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Player") {
 
-            SoundManager.Instance.PlaySound(coinPickupSound);
+            SoundManager.Instance.PlaySound(_coinPickupSound);
             ScoreManager.Instance.AddPointToScore();
 
             Destroy(gameObject);

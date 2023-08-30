@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class DoorTriggerHandler : MonoBehaviour
 {
-    [SerializeField] private Door door;
+    [SerializeField] private Door _door;
 
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Player") {
-            if (!door.IsLocked) {
-                Destroy(door.gameObject);
+            if (!_door.IsLocked) {
+                Destroy(_door.gameObject);
             }
         }
     }

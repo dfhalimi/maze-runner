@@ -16,9 +16,9 @@ namespace SoundManagement
         public void PlaySound(AudioClip audioClip)
         {
             var soundObject = CreateTemporarySoundObject(audioClip);
-            soundObject.audioSource.Play();
+            soundObject.AudioSource.Play();
 
-            Destroy(soundObject.gameObject, audioClip.length);
+            Destroy(soundObject.GameObject, audioClip.length);
         }
 
         private SoundObject CreateTemporarySoundObject(AudioClip audioClip)

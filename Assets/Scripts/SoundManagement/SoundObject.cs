@@ -4,13 +4,13 @@ namespace SoundManagement
 {
     public class SoundObject
     {
-        public GameObject gameObject;
-        public AudioSource audioSource;
+        public GameObject GameObject;
+        public AudioSource AudioSource;
 
         public SoundObject(GameObject gameObject, AudioSource audioSource)
         {
-            this.gameObject = gameObject;
-            this.audioSource = audioSource;
+            this.GameObject = gameObject;
+            this.AudioSource = audioSource;
         }   
     }
 }
