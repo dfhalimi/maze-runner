@@ -14,7 +14,7 @@ public class GameManagement : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Level1");
     }
 
     public void QuitGame()
