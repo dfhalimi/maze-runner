@@ -27,7 +27,7 @@ namespace SoundManagement
             AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
 
             audioSource.clip = audioClip;
-            audioSource.volume = volume;
+            audioSource.volume = volume * (SoundSettingsManager.Instance.SoundEffectsVolumeSliderValue / 100);
 
             return new SoundObject(soundGameObject, audioSource);
         }
