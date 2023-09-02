@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: -973002687490198771}
   - component: {fileID: -8403556037098382380}
   - component: {fileID: 4956331315094781730}
-  - component: {fileID: -1680149533132749440}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -99,15 +98,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pauseScreen: {fileID: 0}
   _gameOverScreen: {fileID: 0}
---- !u!114 &-1680149533132749440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6432663486182445335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9d611cd9088642adb2b05ac5731b4df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
