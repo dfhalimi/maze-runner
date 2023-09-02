@@ -15,7 +15,7 @@ namespace SoundManagement
 
         void Start()
         {
-            if (_soundTrack != null && _soundTrack.audioClip != null) {
+            if (_soundTrack != null && _soundTrack.clip != null) {
                 _soundTrack.Play();
             }
         }
