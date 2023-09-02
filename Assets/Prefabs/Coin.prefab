@@ -143,4 +143,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coinPickupSound: {fileID: 8300000, guid: d6680fcdcc8684a29b7b5e5d36b92b48, type: 3}
-  _soundEffectVolume: 0.4
+  _soundEffectVolume: 0.3
