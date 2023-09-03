@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 8319006333535490946}
   - component: {fileID: 5661550833018900668}
   m_Layer: 0
-  m_Name: SFXSlider
+  m_Name: SoundEffectsVolumeSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 2503197452974908281}
   - component: {fileID: 2732914698735547463}
   m_Layer: 0
-  m_Name: SettingsCanvas
+  m_Name: SettingsScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1560,7 +1560,7 @@ GameObject:
   - component: {fileID: 1344500727216457853}
   - component: {fileID: 7122007196638180412}
   m_Layer: 0
-  m_Name: SFXSliderName
+  m_Name: SoundEffectsVolumeSliderName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1798,7 +1798,7 @@ GameObject:
   - component: {fileID: 7568673558951549547}
   - component: {fileID: 742025863077223973}
   m_Layer: 0
-  m_Name: SFXSliderValue
+  m_Name: SoundEffectsVolumeSliderValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

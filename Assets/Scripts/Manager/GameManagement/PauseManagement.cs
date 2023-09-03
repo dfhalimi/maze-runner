@@ -27,7 +27,8 @@ public class PauseManagement : MonoBehaviour
         if (!IsPaused && !LevelManagement.Instance.IsGameOver) {
             IsPaused = true;
             TimeManipulation.Instance.StopTimeScale();
-            UIManagement.Instance.EnablePauseScreen();
+            
+            UIManager.Instance.ShowScreen(UIManager.PAUSE_SCREEN_NAME);
         }
     }
 
@@ -36,7 +37,9 @@ public class PauseManagement : MonoBehaviour
         if (IsPaused && !LevelManagement.Instance.IsGameOver) {
             IsPaused = false;
             TimeManipulation.Instance.ResumeTimeScale();
-            UIManagement.Instance.DisablePauseScreen();
+
+            UIManager.Instance.HideScreen(UIManager.PAUSE_SCREEN_NAME);
+            UIManager.Instance.HideScreen(UIManager.SETTINGS_SCREEN_NAME);
         }
     }
 }

@@ -50,13 +50,13 @@ public class SoundSettingsManager : MonoBehaviour
     public void SaveSettingsAndReturnToPauseScreen()
     {
         SaveSoundSettings();
-        UIManagement.Instance.ToggleSoundSettingsScreenFromPauseScreen();
+        UIManager.Instance.ReturnToPauseScreenViaSettings();
     }
 
     public void SaveSettingsAndReturnToMainMenuScreen()
     {
         SaveSoundSettings();
-        UIManagement.Instance.ToggleSoundSettingsScreenFromMainMenuScreen();
+        UIManager.Instance.ReturnToMainMenuScreenViaSettings();
     }
 
     private void SaveSoundSettings()

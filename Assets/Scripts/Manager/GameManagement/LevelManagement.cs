@@ -28,7 +28,7 @@ public class LevelManagement : MonoBehaviour
         if (!IsGameOver) {
             IsGameOver = true;
             TimeManipulation.Instance.StopTimeScale();
-            UIManagement.Instance.EnableGameOverScreen();
+            UIManager.Instance.ShowScreen(UIManager.GAME_OVER_SCREEN_NAME);
         }
     }
 
